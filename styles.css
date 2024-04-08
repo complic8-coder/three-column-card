@@ -21,6 +21,7 @@ body {
 }
 
 body {
+    background: var(--very-light-gray);
     display: flex;
     justify-content: center;
 }
