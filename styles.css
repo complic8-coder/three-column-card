@@ -30,7 +30,6 @@ body {
 
 .card {
     max-width: 919px;
-    height: 500px;
     display: flex;
 }
 
@@ -43,7 +42,7 @@ body {
     margin-bottom: 32px;
 }
 
-.column h1 {
+.column h2 {
     margin-bottom: 24px;
     font-size: 40px;
     color: var(--very-light-gray);
@@ -107,14 +106,14 @@ body {
     background: transparent;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 760px) {
     body {
         display: block; /* enables scrolling */
     }
 
     .card {
         width: 327px;
-        margin: 5.5rem 0;
+        margin: 5.5rem auto;
         flex-direction: column;
     }
 
